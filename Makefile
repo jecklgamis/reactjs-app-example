@@ -25,3 +25,5 @@ run-app-dev-mode-ssl:
 	 @./run-app-dev-mode.sh ssl
 clean:
 	 @rm -rf ./build
+push:
+	 docker push $(IMAGE_NAME):$(IMAGE_TAG)
