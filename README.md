@@ -26,26 +26,26 @@ Run the app using HTTPS:
 HTTPS=true SSL_CRT_FILE=server.crt SSL_KEY_FILE=server.key yarn start
 ```
 ## Building
-If you're in a Unix environment and have `make` installed, you can run `make all`.
-This will generate a Docker image `jecklgamis/reactjs-template-app` 
 
-Build the app:
+This assumes you are in a Unix like environment (Mac OSX, Linux etc.) and have `make` command installed. 
+A `Makefile` is provided to wrap commonly used CLI commands and can save lots of key strokes. 
+
+Build the Docker image:
 ```
 make all
 ```
+
 This command does a couple of things:
 * It runs `./generate-ssl-certs` to generate self signed certs
-* `yarn build` to generate a production build of the React app (see `build` directory)
-* `docker build -it jecklgamis/reactjs-template-app` to generate a Docker image.
+* It runs `yarn build` to generate a production build of the React app (see `build` directory)
+* It runs `docker build -it jecklgamis/reactjs-template-app` to generate a Docker image
  
-## Running
+## Running In Docker
 
-To run the app in Docker:
 ```
 make run
 ```
-If all things go well, you should have a Docker container running and you should be able to
-reach the endpoint `http://localhost:8080` in your browser.
+If all things went well, should be able to reach the endpoint `http://localhost:8080` in your browser.
 
 ## Contributing
 Please raise issue or pull request. Thanks for contributing!
