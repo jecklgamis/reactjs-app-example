@@ -2,7 +2,6 @@ IMAGE_NAME:=jecklgamis/reactjs-template-app
 IMAGE_TAG:=latest
 
 default:
-	echo $(IMAGE_TAG)
 	cat ./Makefile
 dist:
 	 @yarn build
