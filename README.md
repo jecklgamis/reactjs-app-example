@@ -45,7 +45,7 @@ This command does a couple of things:
 ```
 make run
 ```
-If things go well, should be able to reach the endpoint `http://localhost:8080` in your browser.
+If things go well, you should be able to reach the endpoint `http://localhost:8080` in your browser.
 
 ## Contributing
 Please raise issue or pull request. Thanks for contributing!
