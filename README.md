@@ -36,9 +36,9 @@ make all
 ```
 
 This command does a couple of things:
-* It runs `./generate-ssl-certs` to generate self signed certs
+* It runs `./generate-ssl-certs.sh` to generate self signed certs
 * It runs `yarn build` to generate a production build of the React app (see `build` directory)
-* It runs `docker build -it jecklgamis/reactjs-template-app` to generate a Docker image
+* It runs `docker build -it jecklgamis/reactjs-template-app:latest` to generate a Docker image
  
 ## Running In Docker
 
