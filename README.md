@@ -1,5 +1,7 @@
 ## reactjs-template-app 
 
+[![CircleCI](https://circleci.com/gh/jecklgamis/reactjs-template-app.svg?style=svg)](https://circleci.com/gh/jecklgamis/reactjs-template-app)
+
 A ReactJS template app using Docker.
 
 Docker: `docker run -p 8080:8080 -it jecklgamis/reactjs-template-app`
