@@ -11,3 +11,7 @@ jobs:
           steps:
             - run: yarn install
             - run: yarn build
+workflows:
+  build-and-test:
+    jobs:
+      - build-and-test
