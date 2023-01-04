@@ -1,4 +1,4 @@
-FROM alpine:3.10
+FROM alpine:3.17
 MAINTAINER Jerrico Gamis <jecklgamis@gmail.com>
 
 RUN apk update && apk add --no-cache bash curl dumb-init
