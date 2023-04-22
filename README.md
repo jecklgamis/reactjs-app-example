@@ -1,6 +1,6 @@
-## reactjs-template-app 
+## reactjs-app-example 
 
-[![CircleCI](https://circleci.com/gh/jecklgamis/reactjs-template-app.svg?style=svg)](https://circleci.com/gh/jecklgamis/reactjs-template-app)
+[![CircleCI](https://circleci.com/gh/jecklgamis/reactjs-app-example.svg?style=svg)](https://circleci.com/gh/jecklgamis/reactjs-app-example)
 
 A ReactJS template app using Docker.
 
@@ -40,7 +40,7 @@ make all
 This command does a couple of things:
 * It runs `./generate-ssl-certs.sh` to generate self signed certs
 * It runs `yarn build` to generate a production build of the React app (see `build` directory)
-* It runs `docker build -it jecklgamis/reactjs-template-app:latest` to generate a Docker image
+* It runs `docker build -it jecklgamis/reactjs-app-example:latest` to generate a Docker image
  
 ## Running In Docker
 

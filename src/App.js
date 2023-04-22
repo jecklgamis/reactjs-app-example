@@ -9,7 +9,7 @@ function App() {
                 <img src={logo} className="App-logo" alt="logo"/>
                 <code>It works on my machine!</code>
                 <div>
-                    <code>git clone git@github.com:jecklgamis/reactjs-template-app.git</code>
+                    <code>git clone git@github.com:jecklgamis/reactjs-app-example.git</code>
                 </div>
             </header>
         </div>

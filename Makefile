@@ -1,4 +1,4 @@
-IMAGE_NAME:=jecklgamis/reactjs-template-app
+IMAGE_NAME:=jecklgamis/reactjs-app-example
 IMAGE_TAG:=main
 
 default:
@@ -28,5 +28,3 @@ run-app-dev-mode-ssl:
 	 @./run-app-dev-mode.sh ssl
 clean:
 	 @rm -rf ./build
-push:
-	 docker push $(IMAGE_NAME):$(IMAGE_TAG)
