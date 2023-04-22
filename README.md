@@ -4,6 +4,9 @@
 
 A ReactJS template app using Docker.
 
+Docker:  `docker run -p 8080:8080 -it  jecklgamis/reactjs-app-example:main`
+
+
 ## Requirements
 * Docker 19.03+
 * NodeJS v13.2+
