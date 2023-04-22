@@ -1,6 +1,6 @@
 ## reactjs-app-example 
 
-[![CircleCI](https://circleci.com/gh/jecklgamis/reactjs-app-example.svg?style=svg)](https://circleci.com/gh/jecklgamis/reactjs-app-example)
+[![Build](https://github.com/jecklgamis/reactjs-app-example/actions/workflows/build.yml/badge.svg)](https://github.com/jecklgamis/reactjs-app-example/actions/workflows/build.yml)
 
 A ReactJS template app using Docker.
 
