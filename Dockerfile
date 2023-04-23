@@ -9,8 +9,6 @@ WORKDIR /app
 
 RUN npm install -g serve
 COPY build/ /app
-COPY server.key /app
-COPY server.crt /app
 COPY docker-entrypoint.sh /
 
 EXPOSE 80
