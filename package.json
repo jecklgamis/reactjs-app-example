@@ -1,6 +1,6 @@
 {
   "name": "reactjs-app-example",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -9,8 +9,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1",
-    "serve": "^14.2.0",
-    "yarn": "^1.22.19"
+    "serve": "^14.2.0"
   },
   "scripts": {
     "start": "PORT=8080 react-scripts start",

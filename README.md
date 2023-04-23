@@ -17,12 +17,12 @@ Docker:  `docker run -p 8080:8080 -it  jecklgamis/reactjs-app-example:main`
 Install app dependencies:
 
 ```
-yarn install 
+npm install 
 ```
 
 Run the app:
 ```
-yarn start
+npm start
 ```
 
 Run the app using HTTPS:
