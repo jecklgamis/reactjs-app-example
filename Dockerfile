@@ -1,14 +1,15 @@
-FROM alpine:3.17
-MAINTAINER Jerrico Gamis <jecklgamis@gmail.com>
+FROM ubuntu:24.04
+LABEL org.opencontainers.image.authors="jecklgamis@gmail.com"
 
-RUN apk update && apk add --no-cache bash curl dumb-init
-RUN apk update && apk add --no-cache nodejs npm yarn
+RUN apt update -y && apt install -y curl dumb-init npm yarn xsel && apt clean all && rm -rf /var/lib/apt/lists/*
 
 RUN mkdir /app
 WORKDIR /app
 
 RUN npm install -g serve
-COPY build/ /app
+COPY dist/ /app
+
+EXPOSE 8080
 COPY docker-entrypoint.sh /
 
 EXPOSE 80
