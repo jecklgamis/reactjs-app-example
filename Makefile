@@ -14,16 +14,16 @@ dist:
 	 @npm run build
 image:
 	 docker build -t $(IMAGE_NAME):$(IMAGE_TAG) .
-run-shell:
+run-bash:
 	 @docker run -it $(IMAGE_NAME):$(IMAGE_TAG) /bin/bash
-exec-shell:
+exec-bash:
 	 @docker exec -it $(shell docker ps -q --filter ancestor=$(IMAGE_NAME):$(IMAGE_TAG)) /bin/bash
 run:
 	 @docker run -p 8080:8080 -it $(IMAGE_NAME):$(IMAGE_TAG)
 run-dev:
 	@npm run dev
 clean:
-	 @rm -rf ./build
+	 @rm -rf ./dist
 
 all : dist image
 up: dist image run
