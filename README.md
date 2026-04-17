@@ -1,6 +1,6 @@
 ## reactjs-app-example
 
-[![Build](https://github.com/jecklgamis/reactjs-app-example/actions/workflows/build.yml/badge.svg)](https://github.com/jecklgamis/reactjs-app-example/actions/workflows/build.yml)
+[![Build](https://github.com/jecklgamis/reactjs-app-example/actions/workflows/build.yaml/badge.svg)](https://github.com/jecklgamis/reactjs-app-example/actions/workflows/build.yaml)
 
 An example ReactJS app.
 
